@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-learning';
+  data = 'dynamic';
+  disabled= false;
+  user_name = 'John Deo';
+  show=false;
+  color='green';
+  getValue(){
+    return 'Getting value from function';
+  }
 }

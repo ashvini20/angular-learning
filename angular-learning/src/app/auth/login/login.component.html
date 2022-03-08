@@ -1,0 +1,15 @@
+<h3 (mouseover)="getValue('Please Login')">LOGIN (mouseover)</h3>
+
+<input type="text" placeholder="event keyup" name="email" #email (keyup)="getValue(email.value)">
+<br/>
+<br/>
+<input type="text" placeholder="event keydown" name="name" #name (keydown)="getValue(name.value)">
+<br/>
+<br/>
+<input type="text" placeholder="event blur" name="age" #age (blur)="getValue(age.value)">
+<br/>
+<br/>
+<input type="text" placeholder="event input" name="gender" #gender (input)="getValue(gender.value)">
+
+<h3 (mouseleave)="getValue('Logged in on mouse leave')">Logged in (mouseleave)</h3>
+
