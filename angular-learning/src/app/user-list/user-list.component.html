@@ -1,0 +1,34 @@
+
+<button (click)="getName('Hello, I am Angular',12)" class="common">Show my name</button>
+<br/>
+<br/>
+<input type="text" name="place" placeholder="placeholder data" #place>
+<br/>
+<br/>
+<button (click)="getPlaceVal(place.placeholder)">Get placeholder value</button>
+<br/>
+<br/>
+<p> Placdeholder value : {{placeVal}} </p>
+<br/>
+<br/>
+<input type="text" name="name_value" placeholder="Enter name" #nameValue>
+<br/>
+<br/>
+<button (click)="getNameVal(nameValue.name)">Get Name value</button>
+<br/>
+<br/>
+<p> Name value : {{nameVal}} </p>
+<br/>
+<br/>
+<input type="text" name="username" placeholder="Enter user name" #username>
+<br/>
+<br/>
+<button (click)="getInputVal(username.value)">Get Input value</button>
+<br/>
+<br/>
+<p> Input value : {{inputVal}} </p>
+<br/>
+<br/>
+<button (click)="counter('plus')">++</button>
+<p> Counter value : {{counterVal}} </p>
+<button (click)="counter('minus')">--</button>
